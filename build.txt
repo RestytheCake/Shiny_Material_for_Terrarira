@@ -1,0 +1,3 @@
+displayName = Shiny Material
+author = Morganischkalt
+version = 0.2

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "usT0Oupt1kxCMserKqyZBZCxG33Vp55uR1Z6SJ4XEO919WIcdNmSqcVBwzSLy6PlcQXVwbWUPkApCQVhuHVktA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Morga\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\ShinyMaterial\\ShinyMaterial.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Morga\\.nuget\\packages\\tmodloader.codeassist\\0.1.5\\tmodloader.codeassist.0.1.5.nupkg.sha512"
+  ],
+  "logs": []
+}
