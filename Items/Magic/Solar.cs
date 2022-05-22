@@ -2,7 +2,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace ShinyMaterial.Items
+namespace ShinyMaterial.Items.Magic
 {
 	public class Solar : ModItem
 	{

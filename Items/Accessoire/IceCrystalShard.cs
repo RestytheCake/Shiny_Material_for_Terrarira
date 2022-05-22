@@ -5,13 +5,13 @@ using Terraria.ModLoader;
 
 namespace ShinyMaterial.Items.Accessoire;
 
-public class BottleOShards : ModItem
+public class IceCrystalShard : ModItem
 {
     
     public override void SetStaticDefaults() {
         
-        DisplayName.SetDefault("Bottle o' Shards");
-        Tooltip.SetDefault("Pure Frost from Icy Shards");
+        DisplayName.SetDefault("Ice Crystal Shard");
+        Tooltip.SetDefault("Make Enemies Frosty");
         
     }
     
@@ -31,15 +31,15 @@ public class BottleOShards : ModItem
     {
         Recipe recipe = CreateRecipe();
         recipe.AddIngredient(ItemID.CrystalShard, 25);
-        recipe.AddIngredient(ItemID.LunarBar, 1);
+        recipe.AddIngredient(ItemID.IceBlock, 155);
         recipe.AddIngredient(ItemID.Bottle, 1);
-        recipe.AddTile(TileID.WorkBenches);
+        recipe.AddTile(TileID.TinkerersWorkbench);
         recipe.Register();
     }
 
     public override void UpdateAccessory(Player player, bool hideVisual)
     {
-        player.GetModPlayer<GlobalPlayer>().BottleOShards = true;
+        player.GetModPlayer<GlobalPlayer>().IceCrystalShard = true;
     }
     
 }

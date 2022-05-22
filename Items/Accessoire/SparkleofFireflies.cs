@@ -11,7 +11,7 @@ public class SparkleofFireflies : ModItem {
     public override void SetStaticDefaults() {
         
         DisplayName.SetDefault("Sparkle of Fireflies"); // By default, capitalization in classnames will add spaces to the display name. You can customize the display name here by uncommenting this line.
-        Tooltip.SetDefault("Be warned/n Anything will burn");
+        Tooltip.SetDefault("Be warned\n Anything will burn");
         
     }
     

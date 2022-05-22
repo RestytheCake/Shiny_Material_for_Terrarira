@@ -10,7 +10,7 @@ namespace ShinyMaterial.Global;
 public class GlobalPlayer : ModPlayer
 {
     public bool SparkleofFireflies = false;
-    public bool BottleOShards = false;
+    public bool IceCrystalShard = false;
 
     public override void PostUpdate()
     {
@@ -24,7 +24,7 @@ public class GlobalPlayer : ModPlayer
             target.AddBuff(ModContent.BuffType<SunBurn>(), 300, false);
         }
 
-        if (BottleOShards == true)
+        if (IceCrystalShard == true)
         {
             target.AddBuff(BuffID.Frostburn, 300, false);
         }
